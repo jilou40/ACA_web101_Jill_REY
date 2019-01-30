@@ -1,0 +1,43 @@
+p {
+    color: blueviolet;
+}
+
+@media (max-width: 600px) {
+    .container{
+        background-color: blueviolet;  
+    }
+       .desktop {
+            display: none;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+
+    .container{
+    background-color: blue;     
+    }
+
+    .desktop {
+          display: none;
+    }
+
+    .linkphone{
+        display: none;
+
+    }
+}
+
+
+@media (min-width: 1200px) {
+.container{
+    background-color: chocolate; 
+}
+.linkphone{
+    display: none;
+}
+
+
+}
+
+
