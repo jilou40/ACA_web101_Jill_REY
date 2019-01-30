@@ -1,0 +1,40 @@
+.wrapper {
+    display: grid;
+
+    grid-template : 50% 50%, 50% 50%;
+    grid-gap: 30px;
+    
+  }
+
+  .greeting {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    border : black solid 2px;
+    background-color: blue
+  }
+  .todo { 
+    grid-column: 1 / 2;
+    grid-row: 2;
+    border : black solid 2px;
+    background-color:  chartreuse;
+    height: 400px;
+    width: 500px;
+
+  }
+  .calcul {
+    grid-column: 2 / 2;
+    grid-row: 1;
+    border : black solid 2px;
+    background-color:  blueviolet
+  }
+  .clock {
+    grid-column: 2 / 2;
+    grid-row: 2;
+    border : black solid 2px;
+    background-color: deeppink
+  }
+
+  body { background-image: url("zain-bhatti-48792-unsplash.jpg") ;
+
+  }
+  
