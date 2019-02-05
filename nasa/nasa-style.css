@@ -1,0 +1,79 @@
+body {
+
+    width: 850px;
+    margin: 0 auto;
+
+}
+
+main {
+
+    margin: 0 auto;
+    height: 450px;
+    background-image: url("./Nasa.jpg");
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Staatliches', cursive;
+    display: flex;
+    align-items: center;
+    letter-spacing: 5px;
+
+}
+
+section {
+
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    height: 324px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightgrey;
+
+}
+
+h1 {
+    font-size : 80px;
+    margin: auto; 
+    
+}
+
+article {
+
+    width: 270px;
+    height: 374px;
+    background-color: lightgrey;
+    margin-top: 30px; 
+
+    
+}
+
+p {
+    color: grey;
+    text-align: left;
+
+}
+
+span {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    display: inline-block;
+
+}
+
+.categories {
+margin-left: 40px;
+
+}
+
+#name {
+    height: 20px;
+    width: 100px;
+    
+}
+
+#msg {
+    height: 40px;
+    width: 200px;
+
+}

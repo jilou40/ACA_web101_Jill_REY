@@ -1,0 +1,96 @@
+
+.wrapper {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; 
+  grid-gap: 15px 15px;
+  
+}
+
+.greeting {
+  font-family: 'Fredericka the Great', cursive;
+  color: indianred; 
+  /* grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2; */
+  margin: auto;
+ 
+}
+
+.todo { 
+  /* grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2; */
+  border : black solid 2px;
+  background-color: coral; 
+  padding: 30px;
+
+}
+
+.weather {
+ /* grid-column-start: 2;
+ grid-column-end: 3;
+ grid-row-start: 2;
+ grid-row-end: 3; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+     
+}
+
+.calcul {
+  /* grid-column-start: 3;
+  grid-column-end: : 4;
+  grid-row-start: 2;
+  grid-row-end: 3; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+     
+}
+
+
+.clock {
+  /* grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start:  1;
+  grid-row-end: 2; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+     
+}
+
+.map {
+  /* grid-column-start: 2;
+  grid-column-end : 3;
+  grid-row-start: 3;
+  grid-row-end: 4; */
+
+}
+
+
+body { background-image: url(./Skyy.jpg); 
+
+}
+
+ 
+
+@media (max-width:600px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr; 
+  }
+}
+
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}  
+  
