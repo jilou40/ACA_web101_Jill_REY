@@ -1,0 +1,241 @@
+main {
+
+    margin: o auto;
+    background-color: #B0C4DE;
+    color: black;
+}
+
+h1 { display: flex;
+    float: left;
+    height: 60px;;
+    width: 200px;
+    /* border: solid black 2px; */
+    background-color:#F0F8FF;
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
+    font-weight: 600px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    
+    
+    
+
+}
+.top { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    
+
+}
+
+  a { 
+      /* border: black solid 2px;  */
+    color:black;
+    margin: 0 auto;
+    /* background-color: #B0C4DE; */
+    border-radius: 10px;
+    border: lavender 4px solid;
+    text-align: center;
+    padding: 10px;
+}
+ a:hover {
+     background-color: lavender;
+ }
+
+article {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 90px; 
+    margin-bottom: 50px; 
+    width: 850px;
+    height: 300px;
+    background-image: url(./pink.jpg);
+    background-size: cover; 
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-stretch: wider;
+    font-style: italic;
+    /* border: blue solid 3px ; */
+    border-radius: 20px;
+    
+}
+
+h2 {
+    
+    text-align: center;
+    margin: 100px;
+    
+}
+.news {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    margin: 0 auto;
+    width: 850px;
+    height: 300px;
+    background-color: transparent;
+    color:white;    
+    
+    
+}
+
+.newtext { 
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.news > section {
+    background-color: #B0C4DE;
+    width:200px;
+    height: 200px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    border: 2px, aquamarine;
+   
+}
+
+
+#firstpic {
+    background-image: url("https://images.unsplash.com/photo-1493775379751-a6c3940f3cbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-size: cover;
+    
+}
+
+
+#secondpic { 
+
+    background-image: url("https://images.unsplash.com/photo-1496124134604-7493ec63de68?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
+    background-size: cover;
+}
+
+#thirdpic {
+
+background-image:url("https://images.unsplash.com/photo-1472747624745-ce92d32d3c24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80");
+background-size: cover;
+}
+
+#forthpic { 
+    background-image: url("https://images.unsplash.com/photo-1455824116325-29097b5f6366?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    background-size: cover;
+}
+    
+    footer {
+
+
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+    width:  auto;
+    height: 80px;
+    background-color: #B0C4DE;
+
+}
+
+button { 
+    display: flex;
+    align-content: space-around;
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+#endofpage {
+
+    text-align: center; 
+    font-size: 20px;
+    margin: auto;
+    
+}
+
+
+footer > button { 
+    
+    margin-left: 100px;
+   font-size: small;
+   border: 4px lavender solid;
+}
+
+button:hover { 
+    background-color: lavender;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+    .top {  
+        
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    
+    }
+
+    a { 
+        display: flex;
+        margin: 10px; 
+        margin-left: 50px;
+       padding: 1px;
+    
+    }
+
+
+    
+    
+
+
+    h1 { 
+        margin-top: 80px;
+        margin-left: 20px;
+        text-align: right;
+    
+}
+
+.news { 
+    display: flex;
+    flex-direction: column;
+    margin:  90px;    
+
+}
+
+section { 
+    margin: 10px;
+
+}
+
+
+article { width : 400px;
+height: 400px;
+
+}
+
+
+   footer { 
+width: 300px;
+height:300px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin: auto;
+
+}
+
+}
