@@ -1,0 +1,36 @@
+.smallsquares {
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    transition: all 0.5s
+}
+
+
+.bigsquares {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    transition: all 1s;
+
+}
+
+.squareContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.squareContainer:hover > .bigsquares {
+    transform: translate(200px)
+    rotate(360deg)
+    scale(1.5)
+    
+}
+
+.squareContainer:hover > .smallsquares {
+    transform: translate(-200px)
+    rotate(-360deg)
+    scale(0.5)
+    
+}
+

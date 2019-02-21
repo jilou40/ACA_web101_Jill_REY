@@ -16,9 +16,17 @@ h1 { display: flex;
     font-weight: 600px;
     letter-spacing: 2px;
     border-radius: 20px;
-     
-
 }
+span {
+    animation-name: backcolor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    width: 100%;
+}
+
+
+
+
 
 
 
@@ -58,7 +66,7 @@ article {
     margin-bottom: 50px; 
     width: 850px;
     height: 300px;
-    background-image: url(./pink.jpg);
+    background-image: url(img/pink.jpg);
     background-size: cover; 
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -240,3 +248,11 @@ margin: auto;
 }
 
 }
+
+
+@keyframes backcolor 
+{
+    from {background-color: #F0F8FF; }
+    to {background-color:red; }
+}
+
