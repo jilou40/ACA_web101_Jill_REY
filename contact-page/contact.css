@@ -1,0 +1,121 @@
+form {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 600px;
+   height: 990px;
+   background-image: url("marble.jpg");
+    padding: 120px 15px 25px 10px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200px;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+    border-radius: 100px;
+    }
+
+    h1 {
+    font-size: 35px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;;
+    color: black;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    }
+
+    h1>span {
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+    color: #575
+    }
+
+    label {
+    display: block;
+    margin: 30px;
+    }
+
+    label>span {
+        
+    display: block;
+    width: 20%;
+    padding-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    input[type="text"], input[type="email"], textarea, select {
+        border: 1px solid #DADADA;
+        color: #888;
+        height: 30px;
+        margin-bottom: 16px;
+        margin-right: 6px;
+        margin-top: 2px;
+        outline: 0 none;
+        padding: 3px 3px 3px 5px;
+        width: 70%;
+        font-size: 12px;
+        line-height:15px;
+        box-shadow: inset 0px 1px 4px #ECECEC;
+        -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+        -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+    }
+
+    textarea{
+        padding: 5px 3px 3px 5px;
+    }
+
+    select {
+        background: #FFF url('down-arrow.png') no-repeat right;
+        background: #FFF url('down-arrow.png') no-repeat right;
+        appearance:none;
+        text-indent: 0.01px;
+        text-overflow: '';
+        width: 70%;
+        height: 35px;
+        line-height: 25px;
+    }
+
+    textarea { 
+        height:200px;
+    }
+    
+    .goback {
+        float: left;
+        margin-left: 40px;
+        margin-top: 100px;
+    }
+    
+    .next {
+        float: right;
+        margin-left: 100px;
+        margin-right: 40px;
+        margin-top: 100px;
+    
+    }
+    
+    .button {
+        display: flex;
+        align-items: center;
+        background: #575;
+        border: none;
+        width: 100px;
+        padding: 15px 25px 10px 25px; 
+        color: #FFF;
+        box-shadow: 1px 1px 5px #B6B6B6;
+        border-radius: 3px;
+        text-shadow: 1px 1px 1px #9E3F3F; 
+        cursor: pointer;    
+    }
+
+
+    .button:hover {
+        background: salmon;
+       
+        
+    }

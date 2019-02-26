@@ -1,0 +1,1534 @@
+<!DOCTYPE html>
+<!-- saved from url=(0076)https://www.mylifeelsewhere.com/country-size-comparison/united-states/france -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Size of United States compared to France</title>
+    <meta name="description" content="United States and France relative size comparison. View both areas on a map to show their proportionate size.">
+    <meta property="og:title" content="Size of United States compared to France">
+    <meta property="og:description" content="United States and France relative size comparison. View both areas on a map to show their proportionate size.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="https://www.mylifeelsewhere.com/static/favicon.a07e05737763.ico">
+    <link rel="stylesheet" media="screen" href="./Size of United States compared to France_files/common.e93e78e36332.css">
+    <script src="./Size of United States compared to France_files/osd.js"></script><script src="./Size of United States compared to France_files/ca-pub-1430040625948250.js"></script><script async="" src="./Size of United States compared to France_files/analytics.js"></script><script type="text/javascript" src="./Size of United States compared to France_files/common.805eb57ce33d.js"></script>
+
+    
+
+    <script src="./Size of United States compared to France_files/mapbox.js"></script>
+    <link href="./Size of United States compared to France_files/mapbox.css" rel="stylesheet">
+
+    <link rel="stylesheet" media="screen" href="./Size of United States compared to France_files/size.a51d0a83029a.css">
+    <script type="text/javascript" src="./Size of United States compared to France_files/size.js"></script>
+
+    <script type="text/javascript">
+        var coordinates = "9.485832,42.615273,0 9.49472,42.603607,0 9.457777,42.643326,0 9.485832,42.615273,0%\
+9.446665,42.678886,0 9.553333,42.115555,0 9.180832,41.364716,0 8.789165,41.558052,0 8.575832,42.383606,0 9.293888,42.675552,0 9.353054,43.003883,0 9.446665,42.678886,0%\
+-1.194445,45.822495,0 -1.401667,46.050552,0 -1.233056,45.964722,0 -1.194445,45.822495,0%\
+-1.260834,46.156387,0 -1.553056,46.244995,0 -1.474445,46.255829,0 -1.260834,46.156387,0%\
+-2.270833,46.693329,0 -2.363889,46.698051,0 -2.385,46.725555,0 -2.270833,46.693329,0%\
+-2.196945,47.01722,0 -2.145,46.90583,0 -2.284722,47.020554,0 -2.196945,47.01722,0%\
+-3.066667,47.306664,0 -3.215834,47.302498,0 -3.258611,47.376106,0 -3.066667,47.306664,0%\
+-5.055,48.454163,0 -5.134723,48.458328,0 -5.064723,48.483055,0 -5.055,48.454163,0%\
+-3.576667,48.803886,0 -3.575556,48.812492,0 -3.563334,48.808609,0 -3.576667,48.803886,0%\
+2.541667,51.09111,0 4.165,50.283051,0 4.149238,49.978371,0 4.832503,50.16861,0 4.873055,49.797218,0 5.80788,49.545044,0 6.36217,49.459389,0 8.226078,48.964417,0 7.578888,48.11972,0 7.588268,47.58448,0 6.990555,47.497215,0 5.966666,46.209442,0 6.791389,46.434166,0 7.038054,45.931938,0 6.79897,45.78067,0 7.127777,45.257774,0 6.61976,45.110138,0 7.031666,44.831383,0 6.976388,44.284164,0 7.662222,44.17083,0 7.528055,43.788605,0 7.439293,43.757523,0 7.416111,43.770554,0 7.387777,43.748604,0 7.391609,43.727547,0 6.165277,43.050552,0 5.031388,43.556664,0 3.964722,43.540833,0 3.081388,43.069443,0 3.177655,42.436806,0 1.723611,42.509438,0 1.78172,42.569962,0 1.445833,42.601944,0 -0.562222,42.781387,0 -1.780877,43.359924,0 -1.036111,44.675278,0 -1.250278,44.662498,0 -1.083889,45.564438,0 -0.536667,44.895554,0 -0.776667,45.461105,0 -1.240834,45.70166,0 -1.067778,45.908882,0 -1.114635,46.316582,0 -2.130834,46.838333,0 -1.984167,47.034439,0 -2.170834,47.126663,0 -2.134167,47.278053,0 -1.728611,47.210831,0 -2.003334,47.31916,0 -2.289167,47.238884,0 -2.540278,47.296661,0 -2.361111,47.504166,0 -2.698056,47.637215,0 -3.106389,47.472221,0 -4.366389,47.804161,0 -4.726142,48.040581,0 -4.186111,48.299995,0 -4.777779,48.509438,0 -3.220834,48.870552,0 -2.685278,48.501663,0 -1.368889,48.643608,0 -1.941667,49.723885,0 -1.264167,49.684166,0 -1.113889,49.365273,0 0.424722,49.45166,0 0.0741670000001,49.526665,0 1.461111,50.124161,0 1.625,50.877777,0 2.541667,51.09111,0";
+        $(document).ready(function() {
+
+            initMap();
+
+            //build relative country map
+            function initMap() {
+
+                var countryAPoint = new Point(39, -105.5);
+                var countryBPoint = new Point(46.565, 2.55);
+                var countryBName  = "France";
+
+                //build the map
+                L.mapbox.accessToken = 'pk.eyJ1IjoiamFzb25oNDIiLCJhIjoiY2preXA3bXdrMGxuNTNwcDR2c2RlYTY2NCJ9.TPU1KN8GIiM6FHIpyV0LRw';
+                var map = L.mapbox.map('google-map', '/static/map.json');
+
+                var countryB = new Country(coordinates,
+                    countryBPoint,
+                    countryBName,
+                    map
+                );
+
+                map.on('ready', function () {
+                    //focus the map on user location
+                    
+                        var userPoint = new Point(30.4, -97.7528);
+                        countryB.moveTo(userPoint);
+                        countryB.draw();
+                        $('#map-text').append("We have positioned the outline of France near your home location of Austin, TX, United States.");
+
+                    
+                });
+
+            }
+
+        });
+    </script>
+
+<link rel="preload" href="./Size of United States compared to France_files/f(4).txt" as="script"><script type="text/javascript" src="./Size of United States compared to France_files/f(4).txt"></script><link rel="preload" href="https://pagead2.googlesyndication.com/pagead/js/r20190220/r20190131/show_ads_impl.js" as="script"></head>
+<body class="">
+
+<div class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        
+        <a href="https://www.mylifeelsewhere.com/" class="navbar-brand">
+            <img src="./Size of United States compared to France_files/plane-black.9602062b518f.png" style="width:25px;">
+            <span style="color: #5763ff">My</span>
+            Life <span style="color: #ffd61d">Elsewhere</span>
+       </a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="https://www.mylifeelsewhere.com/">QUALITY OF LIFE</a>
+                </li>
+
+
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="https://www.mylifeelsewhere.com/country-size-comparison/united-states/france#" id="costOfLivingDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        COST OF LIVING
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="costOfLivingDropdown">
+                        <a class="dropdown-item" href="https://www.mylifeelsewhere.com/cost-of-living/compare-countries">Compare countries</a>
+                        <a class="dropdown-item" href="https://www.mylifeelsewhere.com/cost-of-living/compare-cities">Compare cities</a>
+                        <a class="dropdown-item" href="https://www.mylifeelsewhere.com/cost-of-living/compare-states">Compare states</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="https://www.mylifeelsewhere.com/country-size-comparison/united-states/france#" id="sizeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        SIZE COMPARISON
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="sizeDropdown">
+                        <a class="dropdown-item" href="https://www.mylifeelsewhere.com/country-size-comparison">Compare countries</a>
+                        <a class="dropdown-item" href="https://www.mylifeelsewhere.com/state-size-comparison">Compare states</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="https://www.mylifeelsewhere.com/about">ABOUT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="content-container">
+
+    <div id="size-compare">
+        <div class="compare-header">
+            <div class="jumbotron primary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-12">
+                            <h1 class="main-h1">Country Size Comparison</h1>
+                            <ol class="breadcrumb-custom">
+
+                                
+                                    <li class="breadcrumb-custom-item"><a href="https://www.mylifeelsewhere.com/country-size-comparison">Country Size Comparison</a></li>
+                                    <li class="breadcrumb-custom-item">United States</li>
+                                    <li class="breadcrumb-custom-item">France</li>
+                                    <li class="breadcrumb-custom-item active">Comparison</li>
+                                
+
+                            </ol>
+                            <form method="GET" action="https://www.mylifeelsewhere.com/country-size-comparison/submit">
+                                <div class="row compare-bar-container">
+                                    <div class="col-md-4 col-12">
+                                        <div class="h1 country-drop">
+                                            
+                                                <img src="./Size of United States compared to France_files/us.png">
+                                            
+                                            <div></div>
+                                            <select id="region-a" name="territoryA" style="width: 100%; visibility:hidden;" data-placeholder="Select a country.." tabindex="-1" class="select2-hidden-accessible" aria-hidden="true">
+                                                <option value=""></option>
+                                                
+                                                    <option data-iso="af" value="afghanistan">Afghanistan</option>
+                                                
+                                                    <option data-iso="al" value="albania">Albania</option>
+                                                
+                                                    <option data-iso="dz" value="algeria">Algeria</option>
+                                                
+                                                    <option data-iso="as" value="american-samoa">American Samoa</option>
+                                                
+                                                    <option data-iso="ad" value="andorra">Andorra</option>
+                                                
+                                                    <option data-iso="ao" value="angola">Angola</option>
+                                                
+                                                    <option data-iso="ai" value="anguilla">Anguilla</option>
+                                                
+                                                    <option data-iso="ag" value="antigua-and-barbuda">Antigua and Barbuda</option>
+                                                
+                                                    <option data-iso="ar" value="argentina">Argentina</option>
+                                                
+                                                    <option data-iso="am" value="armenia">Armenia</option>
+                                                
+                                                    <option data-iso="aw" value="aruba">Aruba</option>
+                                                
+                                                    <option data-iso="au" value="australia">Australia</option>
+                                                
+                                                    <option data-iso="at" value="austria">Austria</option>
+                                                
+                                                    <option data-iso="az" value="azerbaijan">Azerbaijan</option>
+                                                
+                                                    <option data-iso="bs" value="bahamas">Bahamas, The</option>
+                                                
+                                                    <option data-iso="bh" value="bahrain">Bahrain</option>
+                                                
+                                                    <option data-iso="bd" value="bangladesh">Bangladesh</option>
+                                                
+                                                    <option data-iso="bb" value="barbados">Barbados</option>
+                                                
+                                                    <option data-iso="by" value="belarus">Belarus</option>
+                                                
+                                                    <option data-iso="be" value="belgium">Belgium</option>
+                                                
+                                                    <option data-iso="bz" value="belize">Belize</option>
+                                                
+                                                    <option data-iso="bj" value="benin">Benin</option>
+                                                
+                                                    <option data-iso="bm" value="bermuda">Bermuda</option>
+                                                
+                                                    <option data-iso="bt" value="bhutan">Bhutan</option>
+                                                
+                                                    <option data-iso="bo" value="bolivia">Bolivia</option>
+                                                
+                                                    <option data-iso="ba" value="bosnia-and-herzegovina">Bosnia and Herzegovina</option>
+                                                
+                                                    <option data-iso="bw" value="botswana">Botswana</option>
+                                                
+                                                    <option data-iso="bv" value="bouvet-island">Bouvet Island</option>
+                                                
+                                                    <option data-iso="br" value="brazil">Brazil</option>
+                                                
+                                                    <option data-iso="io" value="british-indian-ocean-territory">British Indian Ocean Territory</option>
+                                                
+                                                    <option data-iso="vg" value="british-virgin-islands">British Virgin Islands</option>
+                                                
+                                                    <option data-iso="bn" value="brunei">Brunei</option>
+                                                
+                                                    <option data-iso="bg" value="bulgaria">Bulgaria</option>
+                                                
+                                                    <option data-iso="bf" value="burkina-faso">Burkina Faso</option>
+                                                
+                                                    <option data-iso="mm" value="burma">Burma</option>
+                                                
+                                                    <option data-iso="bi" value="burundi">Burundi</option>
+                                                
+                                                    <option data-iso="cv" value="cabo-verde">Cabo Verde</option>
+                                                
+                                                    <option data-iso="kh" value="cambodia">Cambodia</option>
+                                                
+                                                    <option data-iso="cm" value="cameroon">Cameroon</option>
+                                                
+                                                    <option data-iso="ca" value="canada">Canada</option>
+                                                
+                                                    <option data-iso="ky" value="cayman-islands">Cayman Islands</option>
+                                                
+                                                    <option data-iso="cf" value="central-african-republic">Central African Republic</option>
+                                                
+                                                    <option data-iso="td" value="chad">Chad</option>
+                                                
+                                                    <option data-iso="cl" value="chile">Chile</option>
+                                                
+                                                    <option data-iso="cn" value="china">China</option>
+                                                
+                                                    <option data-iso="cx" value="christmas-island">Christmas Island</option>
+                                                
+                                                    <option data-iso="cc" value="cocos-islands">Cocos (Keeling) Islands</option>
+                                                
+                                                    <option data-iso="co" value="colombia">Colombia</option>
+                                                
+                                                    <option data-iso="km" value="comoros">Comoros</option>
+                                                
+                                                    <option data-iso="cd" value="democratic-republic-of-congo">Congo, Democratic Republic Of</option>
+                                                
+                                                    <option data-iso="cg" value="republic-of-congo">Congo, Republic of the</option>
+                                                
+                                                    <option data-iso="ck" value="cook-islands">Cook Islands</option>
+                                                
+                                                    <option data-iso="cr" value="costa-rica">Costa Rica</option>
+                                                
+                                                    <option data-iso="ci" value="cote-divoire">Cote d'Ivoire</option>
+                                                
+                                                    <option data-iso="hr" value="croatia">Croatia</option>
+                                                
+                                                    <option data-iso="cu" value="cuba">Cuba</option>
+                                                
+                                                    <option data-iso="cy" value="cyprus">Cyprus</option>
+                                                
+                                                    <option data-iso="cz" value="czech-republic">Czech Republic</option>
+                                                
+                                                    <option data-iso="dk" value="denmark">Denmark</option>
+                                                
+                                                    <option data-iso="dj" value="djibouti">Djibouti</option>
+                                                
+                                                    <option data-iso="dm" value="dominica">Dominica</option>
+                                                
+                                                    <option data-iso="do" value="dominican-republic">Dominican Republic</option>
+                                                
+                                                    <option data-iso="ec" value="ecuador">Ecuador</option>
+                                                
+                                                    <option data-iso="eg" value="egypt">Egypt</option>
+                                                
+                                                    <option data-iso="sv" value="el-salvador">El Salvador</option>
+                                                
+                                                    <option data-iso="gq" value="equatorial-guinea">Equatorial Guinea</option>
+                                                
+                                                    <option data-iso="er" value="eritrea">Eritrea</option>
+                                                
+                                                    <option data-iso="ee" value="estonia">Estonia</option>
+                                                
+                                                    <option data-iso="et" value="ethiopia">Ethiopia</option>
+                                                
+                                                    <option data-iso="fk" value="falkland-islands">Falkland Islands (Islas Malvinas)</option>
+                                                
+                                                    <option data-iso="fo" value="faroe-islands">Faroe Islands</option>
+                                                
+                                                    <option data-iso="fj" value="fiji">Fiji</option>
+                                                
+                                                    <option data-iso="fi" value="finland">Finland</option>
+                                                
+                                                    <option data-iso="fr" value="france">France</option>
+                                                
+                                                    <option data-iso="pf" value="french-polynesia">French Polynesia</option>
+                                                
+                                                    <option data-iso="tf" value="french-southern-and-antarctic-lands">French Southern and Antarctic Lands</option>
+                                                
+                                                    <option data-iso="ga" value="gabon">Gabon</option>
+                                                
+                                                    <option data-iso="gm" value="gambia">Gambia, The</option>
+                                                
+                                                    <option data-iso="ge" value="georgia">Georgia</option>
+                                                
+                                                    <option data-iso="de" value="germany">Germany</option>
+                                                
+                                                    <option data-iso="gh" value="ghana">Ghana</option>
+                                                
+                                                    <option data-iso="gi" value="gibraltar">Gibraltar</option>
+                                                
+                                                    <option data-iso="gr" value="greece">Greece</option>
+                                                
+                                                    <option data-iso="gl" value="greenland">Greenland</option>
+                                                
+                                                    <option data-iso="gd" value="grenada">Grenada</option>
+                                                
+                                                    <option data-iso="gu" value="guam">Guam</option>
+                                                
+                                                    <option data-iso="gt" value="guatemala">Guatemala</option>
+                                                
+                                                    <option data-iso="gg" value="guernsey">Guernsey</option>
+                                                
+                                                    <option data-iso="gn" value="guinea">Guinea</option>
+                                                
+                                                    <option data-iso="gw" value="guinea-bissau">Guinea-Bissau</option>
+                                                
+                                                    <option data-iso="gy" value="guyana">Guyana</option>
+                                                
+                                                    <option data-iso="ht" value="haiti">Haiti</option>
+                                                
+                                                    <option data-iso="hm" value="heard-island-and-mcdonald-islands">Heard Island and McDonald Islands</option>
+                                                
+                                                    <option data-iso="va" value="vatican-city">Holy See (Vatican City)</option>
+                                                
+                                                    <option data-iso="hn" value="honduras">Honduras</option>
+                                                
+                                                    <option data-iso="hk" value="hong-kong">Hong Kong</option>
+                                                
+                                                    <option data-iso="hu" value="hungary">Hungary</option>
+                                                
+                                                    <option data-iso="is" value="iceland">Iceland</option>
+                                                
+                                                    <option data-iso="in" value="india">India</option>
+                                                
+                                                    <option data-iso="id" value="indonesia">Indonesia</option>
+                                                
+                                                    <option data-iso="ir" value="iran">Iran</option>
+                                                
+                                                    <option data-iso="iq" value="iraq">Iraq</option>
+                                                
+                                                    <option data-iso="ie" value="ireland">Ireland</option>
+                                                
+                                                    <option data-iso="im" value="isle-of-man">Isle of Man</option>
+                                                
+                                                    <option data-iso="il" value="israel">Israel</option>
+                                                
+                                                    <option data-iso="it" value="italy">Italy</option>
+                                                
+                                                    <option data-iso="jm" value="jamaica">Jamaica</option>
+                                                
+                                                    <option data-iso="jp" value="japan">Japan</option>
+                                                
+                                                    <option data-iso="je" value="jersey">Jersey</option>
+                                                
+                                                    <option data-iso="jo" value="jordan">Jordan</option>
+                                                
+                                                    <option data-iso="kz" value="kazakhstan">Kazakhstan</option>
+                                                
+                                                    <option data-iso="ke" value="kenya">Kenya</option>
+                                                
+                                                    <option data-iso="ki" value="kiribati">Kiribati</option>
+                                                
+                                                    <option data-iso="kw" value="kuwait">Kuwait</option>
+                                                
+                                                    <option data-iso="kg" value="kyrgyzstan">Kyrgyzstan</option>
+                                                
+                                                    <option data-iso="la" value="laos">Laos</option>
+                                                
+                                                    <option data-iso="lv" value="latvia">Latvia</option>
+                                                
+                                                    <option data-iso="lb" value="lebanon">Lebanon</option>
+                                                
+                                                    <option data-iso="ls" value="lesotho">Lesotho</option>
+                                                
+                                                    <option data-iso="lr" value="liberia">Liberia</option>
+                                                
+                                                    <option data-iso="ly" value="libya">Libya</option>
+                                                
+                                                    <option data-iso="li" value="liechtenstein">Liechtenstein</option>
+                                                
+                                                    <option data-iso="lt" value="lithuania">Lithuania</option>
+                                                
+                                                    <option data-iso="lu" value="luxembourg">Luxembourg</option>
+                                                
+                                                    <option data-iso="mo" value="macau">Macau</option>
+                                                
+                                                    <option data-iso="mk" value="macedonia">Macedonia</option>
+                                                
+                                                    <option data-iso="mg" value="madagascar">Madagascar</option>
+                                                
+                                                    <option data-iso="mw" value="malawi">Malawi</option>
+                                                
+                                                    <option data-iso="my" value="malaysia">Malaysia</option>
+                                                
+                                                    <option data-iso="mv" value="maldives">Maldives</option>
+                                                
+                                                    <option data-iso="ml" value="mali">Mali</option>
+                                                
+                                                    <option data-iso="mt" value="malta">Malta</option>
+                                                
+                                                    <option data-iso="mh" value="marshall-islands">Marshall Islands</option>
+                                                
+                                                    <option data-iso="mr" value="mauritania">Mauritania</option>
+                                                
+                                                    <option data-iso="mu" value="mauritius">Mauritius</option>
+                                                
+                                                    <option data-iso="mx" value="mexico">Mexico</option>
+                                                
+                                                    <option data-iso="fm" value="micronesia">Micronesia, Federated States of</option>
+                                                
+                                                    <option data-iso="md" value="moldova">Moldova</option>
+                                                
+                                                    <option data-iso="mc" value="monaco">Monaco</option>
+                                                
+                                                    <option data-iso="mn" value="mongolia">Mongolia</option>
+                                                
+                                                    <option data-iso="me" value="montenegro">Montenegro</option>
+                                                
+                                                    <option data-iso="ms" value="montserrat">Montserrat</option>
+                                                
+                                                    <option data-iso="ma" value="morocco">Morocco</option>
+                                                
+                                                    <option data-iso="mz" value="mozambique">Mozambique</option>
+                                                
+                                                    <option data-iso="na" value="namibia">Namibia</option>
+                                                
+                                                    <option data-iso="nr" value="nauru">Nauru</option>
+                                                
+                                                    <option data-iso="np" value="nepal">Nepal</option>
+                                                
+                                                    <option data-iso="nl" value="netherlands">Netherlands</option>
+                                                
+                                                    <option data-iso="nc" value="new-caledonia">New Caledonia</option>
+                                                
+                                                    <option data-iso="nz" value="new-zealand">New Zealand</option>
+                                                
+                                                    <option data-iso="ni" value="nicaragua">Nicaragua</option>
+                                                
+                                                    <option data-iso="ne" value="niger">Niger</option>
+                                                
+                                                    <option data-iso="ng" value="nigeria">Nigeria</option>
+                                                
+                                                    <option data-iso="nu" value="niue">Niue</option>
+                                                
+                                                    <option data-iso="nf" value="norfolk-island">Norfolk Island</option>
+                                                
+                                                    <option data-iso="mp" value="northern-mariana-islands">Northern Mariana Islands</option>
+                                                
+                                                    <option data-iso="kp" value="north-korea">North Korea</option>
+                                                
+                                                    <option data-iso="no" value="norway">Norway</option>
+                                                
+                                                    <option data-iso="om" value="oman">Oman</option>
+                                                
+                                                    <option data-iso="pk" value="pakistan">Pakistan</option>
+                                                
+                                                    <option data-iso="pw" value="palau">Palau</option>
+                                                
+                                                    <option data-iso="pa" value="panama">Panama</option>
+                                                
+                                                    <option data-iso="pg" value="papua-new-guinea">Papua New Guinea</option>
+                                                
+                                                    <option data-iso="py" value="paraguay">Paraguay</option>
+                                                
+                                                    <option data-iso="pe" value="peru">Peru</option>
+                                                
+                                                    <option data-iso="ph" value="philippines">Philippines</option>
+                                                
+                                                    <option data-iso="pn" value="pitcairn-islands">Pitcairn Islands</option>
+                                                
+                                                    <option data-iso="pl" value="poland">Poland</option>
+                                                
+                                                    <option data-iso="pt" value="portugal">Portugal</option>
+                                                
+                                                    <option data-iso="pr" value="puerto-rico">Puerto Rico</option>
+                                                
+                                                    <option data-iso="qa" value="qatar">Qatar</option>
+                                                
+                                                    <option data-iso="ro" value="romania">Romania</option>
+                                                
+                                                    <option data-iso="ru" value="russia">Russia</option>
+                                                
+                                                    <option data-iso="rw" value="rwanda">Rwanda</option>
+                                                
+                                                    <option data-iso="bl" value="saint-barthelemy">Saint Barthelemy</option>
+                                                
+                                                    <option data-iso="sh" value="saint-helena-ascension-and-tristan-da-cunha">Saint Helena, Ascension, and Tristan da Cunha</option>
+                                                
+                                                    <option data-iso="kn" value="saint-kitts-and-nevis">Saint Kitts and Nevis</option>
+                                                
+                                                    <option data-iso="lc" value="saint-lucia">Saint Lucia</option>
+                                                
+                                                    <option data-iso="mf" value="saint-martin">Saint Martin</option>
+                                                
+                                                    <option data-iso="pm" value="saint-pierre-and-miquelon">Saint Pierre and Miquelon</option>
+                                                
+                                                    <option data-iso="vc" value="saint-vincent-and-the-grenadines">Saint Vincent and the Grenadines</option>
+                                                
+                                                    <option data-iso="ws" value="samoa">Samoa</option>
+                                                
+                                                    <option data-iso="sm" value="san-marino">San Marino</option>
+                                                
+                                                    <option data-iso="st" value="sao-tome-and-principe">Sao Tome and Principe</option>
+                                                
+                                                    <option data-iso="sa" value="saudi-arabia">Saudi Arabia</option>
+                                                
+                                                    <option data-iso="sn" value="senegal">Senegal</option>
+                                                
+                                                    <option data-iso="rs" value="serbia">Serbia</option>
+                                                
+                                                    <option data-iso="sc" value="seychelles">Seychelles</option>
+                                                
+                                                    <option data-iso="sl" value="sierra-leone">Sierra Leone</option>
+                                                
+                                                    <option data-iso="sg" value="singapore">Singapore</option>
+                                                
+                                                    <option data-iso="sk" value="slovakia">Slovakia</option>
+                                                
+                                                    <option data-iso="si" value="slovenia">Slovenia</option>
+                                                
+                                                    <option data-iso="sb" value="solomon-islands">Solomon Islands</option>
+                                                
+                                                    <option data-iso="so" value="somalia">Somalia</option>
+                                                
+                                                    <option data-iso="za" value="south-africa">South Africa</option>
+                                                
+                                                    <option data-iso="gs" value="south-georgia-and-south-sandwich-islands">South Georgia and South Sandwich Islands</option>
+                                                
+                                                    <option data-iso="kr" value="south-korea">South Korea</option>
+                                                
+                                                    <option data-iso="es" value="spain">Spain</option>
+                                                
+                                                    <option data-iso="lk" value="sri-lanka">Sri Lanka</option>
+                                                
+                                                    <option data-iso="sd" value="sudan">Sudan</option>
+                                                
+                                                    <option data-iso="sr" value="suriname">Suriname</option>
+                                                
+                                                    <option data-iso="sj" value="svalbard">Svalbard</option>
+                                                
+                                                    <option data-iso="sz" value="swaziland">Swaziland</option>
+                                                
+                                                    <option data-iso="se" value="sweden">Sweden</option>
+                                                
+                                                    <option data-iso="ch" value="switzerland">Switzerland</option>
+                                                
+                                                    <option data-iso="sy" value="syria">Syria</option>
+                                                
+                                                    <option data-iso="tw" value="taiwan">Taiwan</option>
+                                                
+                                                    <option data-iso="tj" value="tajikistan">Tajikistan</option>
+                                                
+                                                    <option data-iso="tz" value="tanzania">Tanzania</option>
+                                                
+                                                    <option data-iso="th" value="thailand">Thailand</option>
+                                                
+                                                    <option data-iso="tl" value="timor-leste">Timor-Leste</option>
+                                                
+                                                    <option data-iso="tg" value="togo">Togo</option>
+                                                
+                                                    <option data-iso="tk" value="tokelau">Tokelau</option>
+                                                
+                                                    <option data-iso="to" value="tonga">Tonga</option>
+                                                
+                                                    <option data-iso="tt" value="trinidad-and-tobago">Trinidad and Tobago</option>
+                                                
+                                                    <option data-iso="tn" value="tunisia">Tunisia</option>
+                                                
+                                                    <option data-iso="tr" value="turkey">Turkey</option>
+                                                
+                                                    <option data-iso="tm" value="turkmenistan">Turkmenistan</option>
+                                                
+                                                    <option data-iso="tc" value="turks-and-caicos-islands">Turks and Caicos Islands</option>
+                                                
+                                                    <option data-iso="tv" value="tuvalu">Tuvalu</option>
+                                                
+                                                    <option data-iso="ug" value="uganda">Uganda</option>
+                                                
+                                                    <option data-iso="ua" value="ukraine">Ukraine</option>
+                                                
+                                                    <option data-iso="ae" value="united-arab-emirates">United Arab Emirates</option>
+                                                
+                                                    <option data-iso="gb" value="united-kingdom">United Kingdom</option>
+                                                
+                                                    <option data-iso="us" value="united-states" selected="">United States</option>
+                                                
+                                                    <option data-iso="uy" value="uruguay">Uruguay</option>
+                                                
+                                                    <option data-iso="uz" value="uzbekistan">Uzbekistan</option>
+                                                
+                                                    <option data-iso="vu" value="vanuatu">Vanuatu</option>
+                                                
+                                                    <option data-iso="ve" value="venezuela">Venezuela</option>
+                                                
+                                                    <option data-iso="vn" value="vietnam">Vietnam</option>
+                                                
+                                                    <option data-iso="vi" value="virgin-islands">Virgin Islands</option>
+                                                
+                                                    <option data-iso="wf" value="wallis-and-futuna">Wallis and Futuna</option>
+                                                
+                                                    <option data-iso="eh" value="western-sahara">Western Sahara</option>
+                                                
+                                                    <option data-iso="ye" value="yemen">Yemen</option>
+                                                
+                                                    <option data-iso="zm" value="zambia">Zambia</option>
+                                                
+                                                    <option data-iso="zw" value="zimbabwe">Zimbabwe</option>
+                                                
+                                                
+                                                    <option data-iso="us" value="alabama-usa">Alabama (US)</option>
+                                                
+                                                    <option data-iso="us" value="alaska-usa">Alaska (US)</option>
+                                                
+                                                    <option data-iso="us" value="arizona-usa">Arizona (US)</option>
+                                                
+                                                    <option data-iso="us" value="arkansas-usa">Arkansas (US)</option>
+                                                
+                                                    <option data-iso="us" value="california-usa">California (US)</option>
+                                                
+                                                    <option data-iso="us" value="colorado-usa">Colorado (US)</option>
+                                                
+                                                    <option data-iso="us" value="connecticut-usa">Connecticut (US)</option>
+                                                
+                                                    <option data-iso="us" value="delaware-usa">Delaware (US)</option>
+                                                
+                                                    <option data-iso="us" value="district-of-columbia-usa">District of Columbia (US)</option>
+                                                
+                                                    <option data-iso="us" value="florida-usa">Florida (US)</option>
+                                                
+                                                    <option data-iso="us" value="georgia-usa">Georgia (US)</option>
+                                                
+                                                    <option data-iso="us" value="hawaii-usa">Hawaii (US)</option>
+                                                
+                                                    <option data-iso="us" value="idaho-usa">Idaho (US)</option>
+                                                
+                                                    <option data-iso="us" value="illinois-usa">Illinois (US)</option>
+                                                
+                                                    <option data-iso="us" value="indiana-usa">Indiana (US)</option>
+                                                
+                                                    <option data-iso="us" value="iowa-usa">Iowa (US)</option>
+                                                
+                                                    <option data-iso="us" value="kansas-usa">Kansas (US)</option>
+                                                
+                                                    <option data-iso="us" value="kentucky-usa">Kentucky (US)</option>
+                                                
+                                                    <option data-iso="us" value="louisiana-usa">Louisiana (US)</option>
+                                                
+                                                    <option data-iso="us" value="maine-usa">Maine (US)</option>
+                                                
+                                                    <option data-iso="us" value="maryland-usa">Maryland (US)</option>
+                                                
+                                                    <option data-iso="us" value="massachusetts-usa">Massachusetts (US)</option>
+                                                
+                                                    <option data-iso="us" value="michigan-usa">Michigan (US)</option>
+                                                
+                                                    <option data-iso="us" value="minnesota-usa">Minnesota (US)</option>
+                                                
+                                                    <option data-iso="us" value="mississippi-usa">Mississippi (US)</option>
+                                                
+                                                    <option data-iso="us" value="missouri-usa">Missouri (US)</option>
+                                                
+                                                    <option data-iso="us" value="montana-usa">Montana (US)</option>
+                                                
+                                                    <option data-iso="us" value="nebraska-usa">Nebraska (US)</option>
+                                                
+                                                    <option data-iso="us" value="nevada-usa">Nevada (US)</option>
+                                                
+                                                    <option data-iso="us" value="new-hampshire-usa">New Hampshire (US)</option>
+                                                
+                                                    <option data-iso="us" value="new-jersey-usa">New Jersey (US)</option>
+                                                
+                                                    <option data-iso="us" value="new-mexico-usa">New Mexico (US)</option>
+                                                
+                                                    <option data-iso="us" value="new-york-usa">New York (US)</option>
+                                                
+                                                    <option data-iso="us" value="north-carolina-usa">North Carolina (US)</option>
+                                                
+                                                    <option data-iso="us" value="north-dakota-usa">North Dakota (US)</option>
+                                                
+                                                    <option data-iso="us" value="ohio-usa">Ohio (US)</option>
+                                                
+                                                    <option data-iso="us" value="oklahoma-usa">Oklahoma (US)</option>
+                                                
+                                                    <option data-iso="us" value="oregon-usa">Oregon (US)</option>
+                                                
+                                                    <option data-iso="us" value="pennsylvania-usa">Pennsylvania (US)</option>
+                                                
+                                                    <option data-iso="us" value="rhode-island-usa">Rhode Island (US)</option>
+                                                
+                                                    <option data-iso="us" value="south-carolina-usa">South Carolina (US)</option>
+                                                
+                                                    <option data-iso="us" value="south-dakota-usa">South Dakota (US)</option>
+                                                
+                                                    <option data-iso="us" value="tennessee-usa">Tennessee (US)</option>
+                                                
+                                                    <option data-iso="us" value="texas-usa">Texas (US)</option>
+                                                
+                                                    <option data-iso="us" value="utah-usa">Utah (US)</option>
+                                                
+                                                    <option data-iso="us" value="vermont-usa">Vermont (US)</option>
+                                                
+                                                    <option data-iso="us" value="virginia-usa">Virginia (US)</option>
+                                                
+                                                    <option data-iso="us" value="washington-usa">Washington (US)</option>
+                                                
+                                                    <option data-iso="us" value="west-virginia-usa">West Virginia (US)</option>
+                                                
+                                                    <option data-iso="us" value="wisconsin-usa">Wisconsin (US)</option>
+                                                
+                                                    <option data-iso="us" value="wyoming-usa">Wyoming (US)</option>
+                                                
+                                            </select><span class="select2 select2-container select2-container--mle" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-region-a-container"><span class="select2-selection__rendered" id="select2-region-a-container" title="United States"><div><span class="flag-icon-rounded flag-select2-spacer flag-icon flag-icon-us"></span>&nbsp;UNITED STATES</div></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-12">
+                                        <div class="compare-to-container">
+                                            <span>COMPARED TO</span>
+                                            <div class="exchange-icon">
+                                                <a href="https://www.mylifeelsewhere.com/country-size-comparison/france/united-states"><i class="material-icons"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-12">
+                                        <div class="h1 country-drop">
+                                            
+                                                <img src="./Size of United States compared to France_files/fr.png">
+                                            
+                                            <div></div>
+                                            <select id="region-b" name="territoryB" style="width: 100%; visibility:hidden;" data-name="France" tabindex="-1" class="select2-hidden-accessible" aria-hidden="true">
+                                                <option value=""></option>
+                                                
+                                                    <option data-iso="af" value="afghanistan">Afghanistan</option>
+                                                
+                                                    <option data-iso="al" value="albania">Albania</option>
+                                                
+                                                    <option data-iso="dz" value="algeria">Algeria</option>
+                                                
+                                                    <option data-iso="as" value="american-samoa">American Samoa</option>
+                                                
+                                                    <option data-iso="ad" value="andorra">Andorra</option>
+                                                
+                                                    <option data-iso="ao" value="angola">Angola</option>
+                                                
+                                                    <option data-iso="ai" value="anguilla">Anguilla</option>
+                                                
+                                                    <option data-iso="ag" value="antigua-and-barbuda">Antigua and Barbuda</option>
+                                                
+                                                    <option data-iso="ar" value="argentina">Argentina</option>
+                                                
+                                                    <option data-iso="am" value="armenia">Armenia</option>
+                                                
+                                                    <option data-iso="aw" value="aruba">Aruba</option>
+                                                
+                                                    <option data-iso="au" value="australia">Australia</option>
+                                                
+                                                    <option data-iso="at" value="austria">Austria</option>
+                                                
+                                                    <option data-iso="az" value="azerbaijan">Azerbaijan</option>
+                                                
+                                                    <option data-iso="bs" value="bahamas">Bahamas, The</option>
+                                                
+                                                    <option data-iso="bh" value="bahrain">Bahrain</option>
+                                                
+                                                    <option data-iso="bd" value="bangladesh">Bangladesh</option>
+                                                
+                                                    <option data-iso="bb" value="barbados">Barbados</option>
+                                                
+                                                    <option data-iso="by" value="belarus">Belarus</option>
+                                                
+                                                    <option data-iso="be" value="belgium">Belgium</option>
+                                                
+                                                    <option data-iso="bz" value="belize">Belize</option>
+                                                
+                                                    <option data-iso="bj" value="benin">Benin</option>
+                                                
+                                                    <option data-iso="bm" value="bermuda">Bermuda</option>
+                                                
+                                                    <option data-iso="bt" value="bhutan">Bhutan</option>
+                                                
+                                                    <option data-iso="bo" value="bolivia">Bolivia</option>
+                                                
+                                                    <option data-iso="ba" value="bosnia-and-herzegovina">Bosnia and Herzegovina</option>
+                                                
+                                                    <option data-iso="bw" value="botswana">Botswana</option>
+                                                
+                                                    <option data-iso="bv" value="bouvet-island">Bouvet Island</option>
+                                                
+                                                    <option data-iso="br" value="brazil">Brazil</option>
+                                                
+                                                    <option data-iso="io" value="british-indian-ocean-territory">British Indian Ocean Territory</option>
+                                                
+                                                    <option data-iso="vg" value="british-virgin-islands">British Virgin Islands</option>
+                                                
+                                                    <option data-iso="bn" value="brunei">Brunei</option>
+                                                
+                                                    <option data-iso="bg" value="bulgaria">Bulgaria</option>
+                                                
+                                                    <option data-iso="bf" value="burkina-faso">Burkina Faso</option>
+                                                
+                                                    <option data-iso="mm" value="burma">Burma</option>
+                                                
+                                                    <option data-iso="bi" value="burundi">Burundi</option>
+                                                
+                                                    <option data-iso="cv" value="cabo-verde">Cabo Verde</option>
+                                                
+                                                    <option data-iso="kh" value="cambodia">Cambodia</option>
+                                                
+                                                    <option data-iso="cm" value="cameroon">Cameroon</option>
+                                                
+                                                    <option data-iso="ca" value="canada">Canada</option>
+                                                
+                                                    <option data-iso="ky" value="cayman-islands">Cayman Islands</option>
+                                                
+                                                    <option data-iso="cf" value="central-african-republic">Central African Republic</option>
+                                                
+                                                    <option data-iso="td" value="chad">Chad</option>
+                                                
+                                                    <option data-iso="cl" value="chile">Chile</option>
+                                                
+                                                    <option data-iso="cn" value="china">China</option>
+                                                
+                                                    <option data-iso="cx" value="christmas-island">Christmas Island</option>
+                                                
+                                                    <option data-iso="cc" value="cocos-islands">Cocos (Keeling) Islands</option>
+                                                
+                                                    <option data-iso="co" value="colombia">Colombia</option>
+                                                
+                                                    <option data-iso="km" value="comoros">Comoros</option>
+                                                
+                                                    <option data-iso="cd" value="democratic-republic-of-congo">Congo, Democratic Republic Of</option>
+                                                
+                                                    <option data-iso="cg" value="republic-of-congo">Congo, Republic of the</option>
+                                                
+                                                    <option data-iso="ck" value="cook-islands">Cook Islands</option>
+                                                
+                                                    <option data-iso="cr" value="costa-rica">Costa Rica</option>
+                                                
+                                                    <option data-iso="ci" value="cote-divoire">Cote d'Ivoire</option>
+                                                
+                                                    <option data-iso="hr" value="croatia">Croatia</option>
+                                                
+                                                    <option data-iso="cu" value="cuba">Cuba</option>
+                                                
+                                                    <option data-iso="cy" value="cyprus">Cyprus</option>
+                                                
+                                                    <option data-iso="cz" value="czech-republic">Czech Republic</option>
+                                                
+                                                    <option data-iso="dk" value="denmark">Denmark</option>
+                                                
+                                                    <option data-iso="dj" value="djibouti">Djibouti</option>
+                                                
+                                                    <option data-iso="dm" value="dominica">Dominica</option>
+                                                
+                                                    <option data-iso="do" value="dominican-republic">Dominican Republic</option>
+                                                
+                                                    <option data-iso="ec" value="ecuador">Ecuador</option>
+                                                
+                                                    <option data-iso="eg" value="egypt">Egypt</option>
+                                                
+                                                    <option data-iso="sv" value="el-salvador">El Salvador</option>
+                                                
+                                                    <option data-iso="gq" value="equatorial-guinea">Equatorial Guinea</option>
+                                                
+                                                    <option data-iso="er" value="eritrea">Eritrea</option>
+                                                
+                                                    <option data-iso="ee" value="estonia">Estonia</option>
+                                                
+                                                    <option data-iso="et" value="ethiopia">Ethiopia</option>
+                                                
+                                                    <option data-iso="fk" value="falkland-islands">Falkland Islands (Islas Malvinas)</option>
+                                                
+                                                    <option data-iso="fo" value="faroe-islands">Faroe Islands</option>
+                                                
+                                                    <option data-iso="fj" value="fiji">Fiji</option>
+                                                
+                                                    <option data-iso="fi" value="finland">Finland</option>
+                                                
+                                                    <option data-iso="fr" value="france" selected="">France</option>
+                                                
+                                                    <option data-iso="pf" value="french-polynesia">French Polynesia</option>
+                                                
+                                                    <option data-iso="tf" value="french-southern-and-antarctic-lands">French Southern and Antarctic Lands</option>
+                                                
+                                                    <option data-iso="ga" value="gabon">Gabon</option>
+                                                
+                                                    <option data-iso="gm" value="gambia">Gambia, The</option>
+                                                
+                                                    <option data-iso="ge" value="georgia">Georgia</option>
+                                                
+                                                    <option data-iso="de" value="germany">Germany</option>
+                                                
+                                                    <option data-iso="gh" value="ghana">Ghana</option>
+                                                
+                                                    <option data-iso="gi" value="gibraltar">Gibraltar</option>
+                                                
+                                                    <option data-iso="gr" value="greece">Greece</option>
+                                                
+                                                    <option data-iso="gl" value="greenland">Greenland</option>
+                                                
+                                                    <option data-iso="gd" value="grenada">Grenada</option>
+                                                
+                                                    <option data-iso="gu" value="guam">Guam</option>
+                                                
+                                                    <option data-iso="gt" value="guatemala">Guatemala</option>
+                                                
+                                                    <option data-iso="gg" value="guernsey">Guernsey</option>
+                                                
+                                                    <option data-iso="gn" value="guinea">Guinea</option>
+                                                
+                                                    <option data-iso="gw" value="guinea-bissau">Guinea-Bissau</option>
+                                                
+                                                    <option data-iso="gy" value="guyana">Guyana</option>
+                                                
+                                                    <option data-iso="ht" value="haiti">Haiti</option>
+                                                
+                                                    <option data-iso="hm" value="heard-island-and-mcdonald-islands">Heard Island and McDonald Islands</option>
+                                                
+                                                    <option data-iso="va" value="vatican-city">Holy See (Vatican City)</option>
+                                                
+                                                    <option data-iso="hn" value="honduras">Honduras</option>
+                                                
+                                                    <option data-iso="hk" value="hong-kong">Hong Kong</option>
+                                                
+                                                    <option data-iso="hu" value="hungary">Hungary</option>
+                                                
+                                                    <option data-iso="is" value="iceland">Iceland</option>
+                                                
+                                                    <option data-iso="in" value="india">India</option>
+                                                
+                                                    <option data-iso="id" value="indonesia">Indonesia</option>
+                                                
+                                                    <option data-iso="ir" value="iran">Iran</option>
+                                                
+                                                    <option data-iso="iq" value="iraq">Iraq</option>
+                                                
+                                                    <option data-iso="ie" value="ireland">Ireland</option>
+                                                
+                                                    <option data-iso="im" value="isle-of-man">Isle of Man</option>
+                                                
+                                                    <option data-iso="il" value="israel">Israel</option>
+                                                
+                                                    <option data-iso="it" value="italy">Italy</option>
+                                                
+                                                    <option data-iso="jm" value="jamaica">Jamaica</option>
+                                                
+                                                    <option data-iso="jp" value="japan">Japan</option>
+                                                
+                                                    <option data-iso="je" value="jersey">Jersey</option>
+                                                
+                                                    <option data-iso="jo" value="jordan">Jordan</option>
+                                                
+                                                    <option data-iso="kz" value="kazakhstan">Kazakhstan</option>
+                                                
+                                                    <option data-iso="ke" value="kenya">Kenya</option>
+                                                
+                                                    <option data-iso="ki" value="kiribati">Kiribati</option>
+                                                
+                                                    <option data-iso="kw" value="kuwait">Kuwait</option>
+                                                
+                                                    <option data-iso="kg" value="kyrgyzstan">Kyrgyzstan</option>
+                                                
+                                                    <option data-iso="la" value="laos">Laos</option>
+                                                
+                                                    <option data-iso="lv" value="latvia">Latvia</option>
+                                                
+                                                    <option data-iso="lb" value="lebanon">Lebanon</option>
+                                                
+                                                    <option data-iso="ls" value="lesotho">Lesotho</option>
+                                                
+                                                    <option data-iso="lr" value="liberia">Liberia</option>
+                                                
+                                                    <option data-iso="ly" value="libya">Libya</option>
+                                                
+                                                    <option data-iso="li" value="liechtenstein">Liechtenstein</option>
+                                                
+                                                    <option data-iso="lt" value="lithuania">Lithuania</option>
+                                                
+                                                    <option data-iso="lu" value="luxembourg">Luxembourg</option>
+                                                
+                                                    <option data-iso="mo" value="macau">Macau</option>
+                                                
+                                                    <option data-iso="mk" value="macedonia">Macedonia</option>
+                                                
+                                                    <option data-iso="mg" value="madagascar">Madagascar</option>
+                                                
+                                                    <option data-iso="mw" value="malawi">Malawi</option>
+                                                
+                                                    <option data-iso="my" value="malaysia">Malaysia</option>
+                                                
+                                                    <option data-iso="mv" value="maldives">Maldives</option>
+                                                
+                                                    <option data-iso="ml" value="mali">Mali</option>
+                                                
+                                                    <option data-iso="mt" value="malta">Malta</option>
+                                                
+                                                    <option data-iso="mh" value="marshall-islands">Marshall Islands</option>
+                                                
+                                                    <option data-iso="mr" value="mauritania">Mauritania</option>
+                                                
+                                                    <option data-iso="mu" value="mauritius">Mauritius</option>
+                                                
+                                                    <option data-iso="mx" value="mexico">Mexico</option>
+                                                
+                                                    <option data-iso="fm" value="micronesia">Micronesia, Federated States of</option>
+                                                
+                                                    <option data-iso="md" value="moldova">Moldova</option>
+                                                
+                                                    <option data-iso="mc" value="monaco">Monaco</option>
+                                                
+                                                    <option data-iso="mn" value="mongolia">Mongolia</option>
+                                                
+                                                    <option data-iso="me" value="montenegro">Montenegro</option>
+                                                
+                                                    <option data-iso="ms" value="montserrat">Montserrat</option>
+                                                
+                                                    <option data-iso="ma" value="morocco">Morocco</option>
+                                                
+                                                    <option data-iso="mz" value="mozambique">Mozambique</option>
+                                                
+                                                    <option data-iso="na" value="namibia">Namibia</option>
+                                                
+                                                    <option data-iso="nr" value="nauru">Nauru</option>
+                                                
+                                                    <option data-iso="np" value="nepal">Nepal</option>
+                                                
+                                                    <option data-iso="nl" value="netherlands">Netherlands</option>
+                                                
+                                                    <option data-iso="nc" value="new-caledonia">New Caledonia</option>
+                                                
+                                                    <option data-iso="nz" value="new-zealand">New Zealand</option>
+                                                
+                                                    <option data-iso="ni" value="nicaragua">Nicaragua</option>
+                                                
+                                                    <option data-iso="ne" value="niger">Niger</option>
+                                                
+                                                    <option data-iso="ng" value="nigeria">Nigeria</option>
+                                                
+                                                    <option data-iso="nu" value="niue">Niue</option>
+                                                
+                                                    <option data-iso="nf" value="norfolk-island">Norfolk Island</option>
+                                                
+                                                    <option data-iso="mp" value="northern-mariana-islands">Northern Mariana Islands</option>
+                                                
+                                                    <option data-iso="kp" value="north-korea">North Korea</option>
+                                                
+                                                    <option data-iso="no" value="norway">Norway</option>
+                                                
+                                                    <option data-iso="om" value="oman">Oman</option>
+                                                
+                                                    <option data-iso="pk" value="pakistan">Pakistan</option>
+                                                
+                                                    <option data-iso="pw" value="palau">Palau</option>
+                                                
+                                                    <option data-iso="pa" value="panama">Panama</option>
+                                                
+                                                    <option data-iso="pg" value="papua-new-guinea">Papua New Guinea</option>
+                                                
+                                                    <option data-iso="py" value="paraguay">Paraguay</option>
+                                                
+                                                    <option data-iso="pe" value="peru">Peru</option>
+                                                
+                                                    <option data-iso="ph" value="philippines">Philippines</option>
+                                                
+                                                    <option data-iso="pn" value="pitcairn-islands">Pitcairn Islands</option>
+                                                
+                                                    <option data-iso="pl" value="poland">Poland</option>
+                                                
+                                                    <option data-iso="pt" value="portugal">Portugal</option>
+                                                
+                                                    <option data-iso="pr" value="puerto-rico">Puerto Rico</option>
+                                                
+                                                    <option data-iso="qa" value="qatar">Qatar</option>
+                                                
+                                                    <option data-iso="ro" value="romania">Romania</option>
+                                                
+                                                    <option data-iso="ru" value="russia">Russia</option>
+                                                
+                                                    <option data-iso="rw" value="rwanda">Rwanda</option>
+                                                
+                                                    <option data-iso="bl" value="saint-barthelemy">Saint Barthelemy</option>
+                                                
+                                                    <option data-iso="sh" value="saint-helena-ascension-and-tristan-da-cunha">Saint Helena, Ascension, and Tristan da Cunha</option>
+                                                
+                                                    <option data-iso="kn" value="saint-kitts-and-nevis">Saint Kitts and Nevis</option>
+                                                
+                                                    <option data-iso="lc" value="saint-lucia">Saint Lucia</option>
+                                                
+                                                    <option data-iso="mf" value="saint-martin">Saint Martin</option>
+                                                
+                                                    <option data-iso="pm" value="saint-pierre-and-miquelon">Saint Pierre and Miquelon</option>
+                                                
+                                                    <option data-iso="vc" value="saint-vincent-and-the-grenadines">Saint Vincent and the Grenadines</option>
+                                                
+                                                    <option data-iso="ws" value="samoa">Samoa</option>
+                                                
+                                                    <option data-iso="sm" value="san-marino">San Marino</option>
+                                                
+                                                    <option data-iso="st" value="sao-tome-and-principe">Sao Tome and Principe</option>
+                                                
+                                                    <option data-iso="sa" value="saudi-arabia">Saudi Arabia</option>
+                                                
+                                                    <option data-iso="sn" value="senegal">Senegal</option>
+                                                
+                                                    <option data-iso="rs" value="serbia">Serbia</option>
+                                                
+                                                    <option data-iso="sc" value="seychelles">Seychelles</option>
+                                                
+                                                    <option data-iso="sl" value="sierra-leone">Sierra Leone</option>
+                                                
+                                                    <option data-iso="sg" value="singapore">Singapore</option>
+                                                
+                                                    <option data-iso="sk" value="slovakia">Slovakia</option>
+                                                
+                                                    <option data-iso="si" value="slovenia">Slovenia</option>
+                                                
+                                                    <option data-iso="sb" value="solomon-islands">Solomon Islands</option>
+                                                
+                                                    <option data-iso="so" value="somalia">Somalia</option>
+                                                
+                                                    <option data-iso="za" value="south-africa">South Africa</option>
+                                                
+                                                    <option data-iso="gs" value="south-georgia-and-south-sandwich-islands">South Georgia and South Sandwich Islands</option>
+                                                
+                                                    <option data-iso="kr" value="south-korea">South Korea</option>
+                                                
+                                                    <option data-iso="es" value="spain">Spain</option>
+                                                
+                                                    <option data-iso="lk" value="sri-lanka">Sri Lanka</option>
+                                                
+                                                    <option data-iso="sd" value="sudan">Sudan</option>
+                                                
+                                                    <option data-iso="sr" value="suriname">Suriname</option>
+                                                
+                                                    <option data-iso="sj" value="svalbard">Svalbard</option>
+                                                
+                                                    <option data-iso="sz" value="swaziland">Swaziland</option>
+                                                
+                                                    <option data-iso="se" value="sweden">Sweden</option>
+                                                
+                                                    <option data-iso="ch" value="switzerland">Switzerland</option>
+                                                
+                                                    <option data-iso="sy" value="syria">Syria</option>
+                                                
+                                                    <option data-iso="tw" value="taiwan">Taiwan</option>
+                                                
+                                                    <option data-iso="tj" value="tajikistan">Tajikistan</option>
+                                                
+                                                    <option data-iso="tz" value="tanzania">Tanzania</option>
+                                                
+                                                    <option data-iso="th" value="thailand">Thailand</option>
+                                                
+                                                    <option data-iso="tl" value="timor-leste">Timor-Leste</option>
+                                                
+                                                    <option data-iso="tg" value="togo">Togo</option>
+                                                
+                                                    <option data-iso="tk" value="tokelau">Tokelau</option>
+                                                
+                                                    <option data-iso="to" value="tonga">Tonga</option>
+                                                
+                                                    <option data-iso="tt" value="trinidad-and-tobago">Trinidad and Tobago</option>
+                                                
+                                                    <option data-iso="tn" value="tunisia">Tunisia</option>
+                                                
+                                                    <option data-iso="tr" value="turkey">Turkey</option>
+                                                
+                                                    <option data-iso="tm" value="turkmenistan">Turkmenistan</option>
+                                                
+                                                    <option data-iso="tc" value="turks-and-caicos-islands">Turks and Caicos Islands</option>
+                                                
+                                                    <option data-iso="tv" value="tuvalu">Tuvalu</option>
+                                                
+                                                    <option data-iso="ug" value="uganda">Uganda</option>
+                                                
+                                                    <option data-iso="ua" value="ukraine">Ukraine</option>
+                                                
+                                                    <option data-iso="ae" value="united-arab-emirates">United Arab Emirates</option>
+                                                
+                                                    <option data-iso="gb" value="united-kingdom">United Kingdom</option>
+                                                
+                                                    <option data-iso="us" value="united-states">United States</option>
+                                                
+                                                    <option data-iso="uy" value="uruguay">Uruguay</option>
+                                                
+                                                    <option data-iso="uz" value="uzbekistan">Uzbekistan</option>
+                                                
+                                                    <option data-iso="vu" value="vanuatu">Vanuatu</option>
+                                                
+                                                    <option data-iso="ve" value="venezuela">Venezuela</option>
+                                                
+                                                    <option data-iso="vn" value="vietnam">Vietnam</option>
+                                                
+                                                    <option data-iso="vi" value="virgin-islands">Virgin Islands</option>
+                                                
+                                                    <option data-iso="wf" value="wallis-and-futuna">Wallis and Futuna</option>
+                                                
+                                                    <option data-iso="eh" value="western-sahara">Western Sahara</option>
+                                                
+                                                    <option data-iso="ye" value="yemen">Yemen</option>
+                                                
+                                                    <option data-iso="zm" value="zambia">Zambia</option>
+                                                
+                                                    <option data-iso="zw" value="zimbabwe">Zimbabwe</option>
+                                                
+                                                
+                                                    <option data-iso="us" value="alabama-usa">Alabama (US)</option>
+                                                
+                                                    <option data-iso="us" value="alaska-usa">Alaska (US)</option>
+                                                
+                                                    <option data-iso="us" value="arizona-usa">Arizona (US)</option>
+                                                
+                                                    <option data-iso="us" value="arkansas-usa">Arkansas (US)</option>
+                                                
+                                                    <option data-iso="us" value="california-usa">California (US)</option>
+                                                
+                                                    <option data-iso="us" value="colorado-usa">Colorado (US)</option>
+                                                
+                                                    <option data-iso="us" value="connecticut-usa">Connecticut (US)</option>
+                                                
+                                                    <option data-iso="us" value="delaware-usa">Delaware (US)</option>
+                                                
+                                                    <option data-iso="us" value="district-of-columbia-usa">District of Columbia (US)</option>
+                                                
+                                                    <option data-iso="us" value="florida-usa">Florida (US)</option>
+                                                
+                                                    <option data-iso="us" value="georgia-usa">Georgia (US)</option>
+                                                
+                                                    <option data-iso="us" value="hawaii-usa">Hawaii (US)</option>
+                                                
+                                                    <option data-iso="us" value="idaho-usa">Idaho (US)</option>
+                                                
+                                                    <option data-iso="us" value="illinois-usa">Illinois (US)</option>
+                                                
+                                                    <option data-iso="us" value="indiana-usa">Indiana (US)</option>
+                                                
+                                                    <option data-iso="us" value="iowa-usa">Iowa (US)</option>
+                                                
+                                                    <option data-iso="us" value="kansas-usa">Kansas (US)</option>
+                                                
+                                                    <option data-iso="us" value="kentucky-usa">Kentucky (US)</option>
+                                                
+                                                    <option data-iso="us" value="louisiana-usa">Louisiana (US)</option>
+                                                
+                                                    <option data-iso="us" value="maine-usa">Maine (US)</option>
+                                                
+                                                    <option data-iso="us" value="maryland-usa">Maryland (US)</option>
+                                                
+                                                    <option data-iso="us" value="massachusetts-usa">Massachusetts (US)</option>
+                                                
+                                                    <option data-iso="us" value="michigan-usa">Michigan (US)</option>
+                                                
+                                                    <option data-iso="us" value="minnesota-usa">Minnesota (US)</option>
+                                                
+                                                    <option data-iso="us" value="mississippi-usa">Mississippi (US)</option>
+                                                
+                                                    <option data-iso="us" value="missouri-usa">Missouri (US)</option>
+                                                
+                                                    <option data-iso="us" value="montana-usa">Montana (US)</option>
+                                                
+                                                    <option data-iso="us" value="nebraska-usa">Nebraska (US)</option>
+                                                
+                                                    <option data-iso="us" value="nevada-usa">Nevada (US)</option>
+                                                
+                                                    <option data-iso="us" value="new-hampshire-usa">New Hampshire (US)</option>
+                                                
+                                                    <option data-iso="us" value="new-jersey-usa">New Jersey (US)</option>
+                                                
+                                                    <option data-iso="us" value="new-mexico-usa">New Mexico (US)</option>
+                                                
+                                                    <option data-iso="us" value="new-york-usa">New York (US)</option>
+                                                
+                                                    <option data-iso="us" value="north-carolina-usa">North Carolina (US)</option>
+                                                
+                                                    <option data-iso="us" value="north-dakota-usa">North Dakota (US)</option>
+                                                
+                                                    <option data-iso="us" value="ohio-usa">Ohio (US)</option>
+                                                
+                                                    <option data-iso="us" value="oklahoma-usa">Oklahoma (US)</option>
+                                                
+                                                    <option data-iso="us" value="oregon-usa">Oregon (US)</option>
+                                                
+                                                    <option data-iso="us" value="pennsylvania-usa">Pennsylvania (US)</option>
+                                                
+                                                    <option data-iso="us" value="rhode-island-usa">Rhode Island (US)</option>
+                                                
+                                                    <option data-iso="us" value="south-carolina-usa">South Carolina (US)</option>
+                                                
+                                                    <option data-iso="us" value="south-dakota-usa">South Dakota (US)</option>
+                                                
+                                                    <option data-iso="us" value="tennessee-usa">Tennessee (US)</option>
+                                                
+                                                    <option data-iso="us" value="texas-usa">Texas (US)</option>
+                                                
+                                                    <option data-iso="us" value="utah-usa">Utah (US)</option>
+                                                
+                                                    <option data-iso="us" value="vermont-usa">Vermont (US)</option>
+                                                
+                                                    <option data-iso="us" value="virginia-usa">Virginia (US)</option>
+                                                
+                                                    <option data-iso="us" value="washington-usa">Washington (US)</option>
+                                                
+                                                    <option data-iso="us" value="west-virginia-usa">West Virginia (US)</option>
+                                                
+                                                    <option data-iso="us" value="wisconsin-usa">Wisconsin (US)</option>
+                                                
+                                                    <option data-iso="us" value="wyoming-usa">Wyoming (US)</option>
+                                                
+                                            </select><span class="select2 select2-container select2-container--mle" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-region-b-container"><span class="select2-selection__rendered" id="select2-region-b-container" title="France"><div><span class="flag-icon-rounded flag-select2-spacer flag-icon flag-icon-fr"></span>&nbsp;FRANCE</div></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            
+
+<div class="tabbable-line mt-3">
+    <ul class="nav nav-tabs">
+
+        
+        
+        <li class="">
+            <a title="Compare United States vs. France" href="https://www.mylifeelsewhere.com/compare/united-states/france">
+                Quality of Life
+            </a>
+        </li>
+        
+
+        
+        <li class="">
+            <a title="Compare the cost of living in United States and France" href="https://www.mylifeelsewhere.com/cost-of-living/united-states/france">
+                Cost of living
+            </a>
+        </li>
+
+        
+        
+        <li class="active">
+            <a title="Compare the size of United States and France" href="https://www.mylifeelsewhere.com/country-size-comparison/united-states/france">
+                Size comparison
+            </a>
+        </li>
+        
+
+    </ul>
+</div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="share-bar text-muted">
+                                <i class="material-icons md-18"></i> Share this via:
+                                <div>
+                                    <!-- Sharingbutton Facebook -->
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https://www.mylifeelsewhere.com/country-size-comparison/united-states/france" target="_blank" aria-label="">
+    <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"></path></svg>
+    </div>
+    </div>
+</a>
+
+<!-- Sharingbutton Twitter -->
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=See%20the%20size%20of%20United%20States%20compared%20to%20France%20%20-%20MyLifeElsewhere&amp;url=https://www.mylifeelsewhere.com/country-size-comparison/united-states/france" target="_blank" aria-label="">
+    <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"></path></svg>
+    </div>
+    </div>
+</a>
+
+<!-- Sharingbutton Google+ -->
+<a class="resp-sharing-button__link" href="https://plus.google.com/share?url=https://www.mylifeelsewhere.com/country-size-comparison/united-states/france" target="_blank" aria-label="">
+    <div class="resp-sharing-button resp-sharing-button--google resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.37 12.93c-.73-.52-1.4-1.27-1.4-1.5 0-.43.03-.63.98-1.37 1.23-.97 1.9-2.23 1.9-3.57 0-1.22-.36-2.3-1-3.05h.5c.1 0 .2-.04.28-.1l1.36-.98c.16-.12.23-.34.17-.54-.07-.2-.25-.33-.46-.33H7.6c-.66 0-1.34.12-2 .35-2.23.76-3.78 2.66-3.78 4.6 0 2.76 2.13 4.85 5 4.9-.07.23-.1.45-.1.66 0 .43.1.83.33 1.22h-.08c-2.72 0-5.17 1.34-6.1 3.32-.25.52-.37 1.04-.37 1.56 0 .5.13.98.38 1.44.6 1.04 1.84 1.86 3.55 2.28.87.23 1.82.34 2.8.34.88 0 1.7-.1 2.5-.34 2.4-.7 3.97-2.48 3.97-4.54 0-1.97-.63-3.15-2.33-4.35zm-7.7 4.5c0-1.42 1.8-2.68 3.9-2.68h.05c.45 0 .9.07 1.3.2l.42.28c.96.66 1.6 1.1 1.77 1.8.05.16.07.33.07.5 0 1.8-1.33 2.7-3.96 2.7-1.98 0-3.54-1.23-3.54-2.8zM5.54 3.9c.33-.38.75-.58 1.23-.58h.05c1.35.05 2.64 1.55 2.88 3.35.14 1.02-.08 1.97-.6 2.55-.32.37-.74.56-1.23.56h-.03c-1.32-.04-2.63-1.6-2.87-3.4-.13-1 .08-1.92.58-2.5zM23.5 9.5h-3v-3h-2v3h-3v2h3v3h2v-3h3"></path></svg>
+    </div>
+    </div>
+</a>
+
+<!-- Sharingbutton Tumblr -->
+<a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=See%20the%20size%20of%20United%20States%20compared%20to%20France%20%20-%20MyLifeElsewhere&amp;caption=See%20the%20size%20of%20United%20States%20compared%20to%20France%20%20-%20MyLifeElsewhere&amp;content=https://www.mylifeelsewhere.com/country-size-comparison/united-states/france&amp;canonicalUrl=https://www.mylifeelsewhere.com/country-size-comparison/united-states/france&amp;shareSource=tumblr_share_button" target="_blank" aria-label="">
+    <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.5.5v5h5v4h-5V15c0 5 3.5 4.4 6 2.8v4.4c-6.7 3.2-12 0-12-4.2V9.5h-3V6.7c1-.3 2.2-.7 3-1.3.5-.5 1-1.2 1.4-2 .3-.7.6-1.7.7-3h3.8z"></path></svg>
+    </div>
+    </div>
+</a>
+
+<!-- Sharingbutton Pinterest -->
+<a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=https://www.mylifeelsewhere.com/country-size-comparison/united-states/france&amp;media=https://www.mylifeelsewhere.com/country-size-comparison/united-states/france&amp;description=See%20the%20size%20of%20United%20States%20compared%20to%20France%20%20-%20MyLifeElsewhere" target="_blank" aria-label="">
+    <div class="resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.14.5C5.86.5 2.7 5 2.7 8.75c0 2.27.86 4.3 2.7 5.05.3.12.57 0 .66-.33l.27-1.06c.1-.32.06-.44-.2-.73-.52-.62-.86-1.44-.86-2.6 0-3.33 2.5-6.32 6.5-6.32 3.55 0 5.5 2.17 5.5 5.07 0 3.8-1.7 7.02-4.2 7.02-1.37 0-2.4-1.14-2.07-2.54.4-1.68 1.16-3.48 1.16-4.7 0-1.07-.58-1.98-1.78-1.98-1.4 0-2.55 1.47-2.55 3.42 0 1.25.43 2.1.43 2.1l-1.7 7.2c-.5 2.13-.08 4.75-.04 5 .02.17.22.2.3.1.14-.18 1.82-2.26 2.4-4.33.16-.58.93-3.63.93-3.63.45.88 1.8 1.65 3.22 1.65 4.25 0 7.13-3.87 7.13-9.05C20.5 4.15 17.18.5 12.14.5z"></path></svg>
+    </div>
+    </div>
+</a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-3 order-md-2 order-1 col-12">
+                    <div class="ad-container">
+                        
+                        <script async="" src="./Size of United States compared to France_files/f(5).txt"></script>
+                        <ins class="adsbygoogle" style="display: block; height: 600px;" data-ad-client="ca-pub-1430040625948250" data-ad-slot="6235656325" data-ad-format="auto" data-adsbygoogle-status="done"><ins id="aswift_0_expand" style="display:inline-table;border:none;height:600px;margin:0;padding:0;position:relative;visibility:visible;width:210px;background-color:transparent;"><ins id="aswift_0_anchor" style="display:block;border:none;height:600px;margin:0;padding:0;position:relative;visibility:visible;width:210px;background-color:transparent;"><iframe width="210" height="600" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0px;width:210px;height:600px;" src="./Size of United States compared to France_files/saved_resource(2).html"></iframe></ins></ins></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                        
+                    </div>
+                </div>
+                <div class="col-md-9 order-md-1 order-2 col-12">
+                    <h1 style="margin-top:0;font-size:30px;">United States is about 18 times <i>bigger</i> than France.</h1>
+                    <p id="map-text" class="text-muted" style="font-size:13px;">
+
+                        France is approximately 551,500 sq km,
+                        while United States is approximately 9,833,517 sq km.
+
+                        
+                        Meanwhile, the <i>population</i> of France is ~67.1 million people
+                        (259.5 million <i>more</i> people live in United States).
+                        
+
+                    We have positioned the outline of France near your home location of Austin, TX, United States.</p>
+                    <div id="map-container">
+                        <div id="google-map" data-coordinates="9.485832,42.615273,0 9.49472,42.603607,0 9.457777,42.643326,0 9.485832,42.615273,0%\
+9.446665,42.678886,0 9.553333,42.115555,0 9.180832,41.364716,0 8.789165,41.558052,0 8.575832,42.383606,0 9.293888,42.675552,0 9.353054,43.003883,0 9.446665,42.678886,0%\
+-1.194445,45.822495,0 -1.401667,46.050552,0 -1.233056,45.964722,0 -1.194445,45.822495,0%\
+-1.260834,46.156387,0 -1.553056,46.244995,0 -1.474445,46.255829,0 -1.260834,46.156387,0%\
+-2.270833,46.693329,0 -2.363889,46.698051,0 -2.385,46.725555,0 -2.270833,46.693329,0%\
+-2.196945,47.01722,0 -2.145,46.90583,0 -2.284722,47.020554,0 -2.196945,47.01722,0%\
+-3.066667,47.306664,0 -3.215834,47.302498,0 -3.258611,47.376106,0 -3.066667,47.306664,0%\
+-5.055,48.454163,0 -5.134723,48.458328,0 -5.064723,48.483055,0 -5.055,48.454163,0%\
+-3.576667,48.803886,0 -3.575556,48.812492,0 -3.563334,48.808609,0 -3.576667,48.803886,0%\
+2.541667,51.09111,0 4.165,50.283051,0 4.149238,49.978371,0 4.832503,50.16861,0 4.873055,49.797218,0 5.80788,49.545044,0 6.36217,49.459389,0 8.226078,48.964417,0 7.578888,48.11972,0 7.588268,47.58448,0 6.990555,47.497215,0 5.966666,46.209442,0 6.791389,46.434166,0 7.038054,45.931938,0 6.79897,45.78067,0 7.127777,45.257774,0 6.61976,45.110138,0 7.031666,44.831383,0 6.976388,44.284164,0 7.662222,44.17083,0 7.528055,43.788605,0 7.439293,43.757523,0 7.416111,43.770554,0 7.387777,43.748604,0 7.391609,43.727547,0 6.165277,43.050552,0 5.031388,43.556664,0 3.964722,43.540833,0 3.081388,43.069443,0 3.177655,42.436806,0 1.723611,42.509438,0 1.78172,42.569962,0 1.445833,42.601944,0 -0.562222,42.781387,0 -1.780877,43.359924,0 -1.036111,44.675278,0 -1.250278,44.662498,0 -1.083889,45.564438,0 -0.536667,44.895554,0 -0.776667,45.461105,0 -1.240834,45.70166,0 -1.067778,45.908882,0 -1.114635,46.316582,0 -2.130834,46.838333,0 -1.984167,47.034439,0 -2.170834,47.126663,0 -2.134167,47.278053,0 -1.728611,47.210831,0 -2.003334,47.31916,0 -2.289167,47.238884,0 -2.540278,47.296661,0 -2.361111,47.504166,0 -2.698056,47.637215,0 -3.106389,47.472221,0 -4.366389,47.804161,0 -4.726142,48.040581,0 -4.186111,48.299995,0 -4.777779,48.509438,0 -3.220834,48.870552,0 -2.685278,48.501663,0 -1.368889,48.643608,0 -1.941667,49.723885,0 -1.264167,49.684166,0 -1.113889,49.365273,0 0.424722,49.45166,0 0.0741670000001,49.526665,0 1.461111,50.124161,0 1.625,50.877777,0 2.541667,51.09111,0" class="leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" tabindex="0" style="position: relative; outline: none;"><div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(-75.8672px, 154.305px, 0px);"><div class="leaflet-pane leaflet-tile-pane"><div class="leaflet-layer " style="z-index: 1; opacity: 1;"><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 18; transform: translate3d(-507px, -77px, 0px) scale(1);"><img alt="" role="presentation" src="./Size of United States compared to France_files/6.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(770px, 86px, 0px); opacity: 1;"><img alt="" role="presentation" src="./Size of United States compared to France_files/6(1).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1026px, 86px, 0px); opacity: 1;"><img alt="" role="presentation" src="./Size of United States compared to France_files/5.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(770px, -170px, 0px); opacity: 1;"><img alt="" role="presentation" src="./Size of United States compared to France_files/5(1).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1026px, -170px, 0px); opacity: 1;"><img alt="" role="presentation" src="./Size of United States compared to France_files/7.png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(770px, 342px, 0px); opacity: 1;"><img alt="" role="presentation" src="./Size of United States compared to France_files/7(1).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1026px, 342px, 0px); opacity: 1;"><img alt="" role="presentation" src="./Size of United States compared to France_files/6(2).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(514px, 86px, 0px); opacity: 1;"><img alt="" role="presentation" src="./Size of United States compared to France_files/6(3).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1282px, 86px, 0px); opacity: 1;"><img alt="" role="presentation" src="./Size of United States compared to France_files/5(2).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(514px, -170px, 0px); opacity: 1;"><img alt="" role="presentation" src="./Size of United States compared to France_files/5(3).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1282px, -170px, 0px); opacity: 1;"><img alt="" role="presentation" src="./Size of United States compared to France_files/7(2).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(514px, 342px, 0px); opacity: 1;"><img alt="" role="presentation" src="./Size of United States compared to France_files/7(3).png" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1282px, 342px, 0px); opacity: 1;"></div><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 17; transform: translate3d(1px, 1px, 0px) scale(2);"></div></div></div><div class="leaflet-pane leaflet-shadow-pane"></div><div class="leaflet-pane leaflet-overlay-pane"><svg pointer-events="none" class="leaflet-zoom-animated" width="828" height="600" viewBox="7 -204 828 600" style="transform: translate3d(7px, -204px, 0px);"><g><path class="leaflet-interactive" stroke="#000" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#5272ff" fill-opacity="0.5" fill-rule="evenodd" d="M491 209L491 208zM491 208L492 215L489 225L485 222L484 212L490 208L490 204zM398 167L396 164L398 166zM397 163L396 162zM389 156L388 156zM389 152L390 153L388 152zM382 148L380 147zM364 132L364 132zM377 128L377 128zM431 96L445 108L445 112L451 109L451 114L480 126L475 137L475 144L470 145L461 162L468 159L470 166L468 168L471 175L466 177L470 180L470 187L476 189L474 194L462 203L453 197L443 197L435 203L436 211L404 207L393 199L399 182L398 183L399 171L404 179L402 172L398 169L399 161L390 154L390 148L393 149L386 148L388 145L385 143L381 146L370 141L367 138L372 135L367 132L380 127L385 132L396 130L391 115L397 116L399 120L412 119L409 118L421 110L423 99z"></path></g></svg></div><div class="leaflet-pane leaflet-marker-pane"></div><div class="leaflet-pane leaflet-tooltip-pane"></div><div class="leaflet-pane leaflet-popup-pane"></div><div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(925.867px, 1622.7px, 0px) scale(8);"></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="https://www.mylifeelsewhere.com/country-size-comparison/united-states/france#" title="Zoom in" role="button" aria-label="Zoom in">+</a><a class="leaflet-control-zoom-out" href="https://www.mylifeelsewhere.com/country-size-comparison/united-states/france#" title="Zoom out" role="button" aria-label="Zoom out">-</a></div></div><div class="leaflet-top leaflet-right"><div class="leaflet-control-grid map-tooltip leaflet-control" style="display: none;"><a class="close" href="https://www.mylifeelsewhere.com/country-size-comparison/united-states/france#" title="close">close</a><div class="map-tooltip-content"></div></div></div><div class="leaflet-bottom leaflet-left"><div class="mapbox-logo leaflet-control"></div></div><div class="leaflet-bottom leaflet-right"><div class="map-legends wax-legends leaflet-control" style="display: none;"></div><div class="leaflet-control-attribution leaflet-control">© MyLifeElsewhere.com | <a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox</a> <a href="https://openstreetmap.org/about/" target="_blank">© OpenStreetMap</a></div></div></div></div>
+                    </div>
+
+                    
+                        <p class="text-muted mt-1">
+                            This to-scale map shows a size comparison of <a href="https://en.wikipedia.org/wiki/France" target="_blank">France</a> compared to <a href="https://en.wikipedia.org/wiki/United_States" target="_blank">United States</a>.
+                            For more details, see an in-depth <a href="https://www.mylifeelsewhere.com/compare/united-states/france">
+                            comparison of United States vs. France</a>
+                            using our country comparison tool.
+                        </p>
+                    
+                    <hr>
+                    <h3>Other popular comparisons:</h3>
+                    <div class="row" style="font-size:20px;">
+                        <div class="col-md-6">
+                            
+                            <p><a href="https://www.mylifeelsewhere.com/country-size-comparison/united-states/austria">Size of United States vs. Austria</a></p>
+                            
+                            <p><a href="https://www.mylifeelsewhere.com/country-size-comparison/united-states/ecuador">Size of United States vs. Ecuador</a></p>
+                            
+                            <p><a href="https://www.mylifeelsewhere.com/country-size-comparison/united-states/peru">Size of United States vs. Peru</a></p>
+                            
+                            <p><a href="https://www.mylifeelsewhere.com/country-size-comparison/united-states/vietnam">Size of United States vs. Vietnam</a></p>
+                            
+                            <p><a href="https://www.mylifeelsewhere.com/country-size-comparison/united-states/ireland">Size of United States vs. Ireland</a></p>
+                            
+                            <p><a href="https://www.mylifeelsewhere.com/country-size-comparison/united-states/iceland">Size of United States vs. Iceland</a></p>
+                            
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <span class="text-muted">© 2018 MyLifeElsewhere &nbsp;&nbsp; <a href="https://www.mylifeelsewhere.com/about">About</a> •  <a href="https://www.mylifeelsewhere.com/contact">Contact</a></span>
+            </div>
+            <div id="social-bar" class="col-md-6 text-md-right col-12">
+                <div id="social-container">
+
+                    <a href="https://www.facebook.com/mylifeelsewheredotcom" target="_blank">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="35px" height="35px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+									<path id="facebook" fill="#ccc" d="M17.252,11.106V8.65c0-0.922,0.611-1.138,1.041-1.138h2.643V3.459l-3.639-0.015
+		c-4.041,0-4.961,3.023-4.961,4.961v2.701H10v4.178h2.336v11.823h4.916V15.284h3.316l0.428-4.178H17.252z"></path>
+								</svg>
+                    </a>
+                    <a href="https://www.instagram.com/my.life.elsewhere" target="_blank">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="35px" height="35px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+									<path id="instagram" fill="#ccc" d="M22.107,3.415H7.893c-2.469,0-4.479,2.007-4.479,4.477v4.73v9.486c0,2.469,2.01,4.479,4.479,4.479h14.215
+		c2.469,0,4.479-2.01,4.479-4.479v-9.486v-4.73C26.586,5.421,24.576,3.415,22.107,3.415 M23.393,6.086l0.512-0.004v0.511v3.416
+		l-3.916,0.014l-0.012-3.928L23.393,6.086z M11.693,12.622c0.742-1.028,1.945-1.7,3.307-1.7s2.564,0.672,3.307,1.7
+		c0.484,0.67,0.771,1.49,0.771,2.379c0,2.248-1.828,4.078-4.078,4.078c-2.248,0-4.078-1.83-4.078-4.078
+		C10.922,14.112,11.211,13.292,11.693,12.622 M24.328,22.107c0,1.225-0.994,2.219-2.221,2.219H7.893
+		c-1.225,0-2.219-0.994-2.219-2.219v-9.486h3.459C8.832,13.356,8.664,14.159,8.664,15c0,3.494,2.842,6.335,6.336,6.335
+		s6.336-2.842,6.336-6.335c0-0.842-0.17-1.645-0.467-2.379h3.459V22.107z"></path>
+								</svg>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-53632821-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+
+
+
+<iframe id="google_osd_static_frame_5284130773940" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;" src="./Size of United States compared to France_files/saved_resource(3).html"></iframe></body><iframe id="google_shimpl" style="display: none;" src="./Size of United States compared to France_files/saved_resource(4).html"></iframe><iframe id="google_esf" name="google_esf" src="./Size of United States compared to France_files/zrt_lookup.html" data-ad-client="ca-pub-1430040625948250" style="display: none;"></iframe></html>

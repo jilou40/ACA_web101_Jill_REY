@@ -1,0 +1,62 @@
+h1 {
+    color: lightslategray;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+}
+
+.photo {
+    height: 100px;
+    width: 100px;
+}
+
+.photo-box {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(247, 183, 225);
+    border: white solid 2px;
+}
+
+.photo-box1 {
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    border: white solid 2px;
+}
+
+.photo-box2 {
+    height: 400px;
+    width: 400px;
+    background-color:orange;
+    border: white solid 2px;
+}
+
+.photo-box3 {
+    height: 400px;
+    width: 400px;
+    background-color: teal;
+    border: white solid 2px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(61, 60, 60);
+}
+
+p {
+    color: rgb(61, 60, 60);
+}
+
+
+
+@media (max-width: 600px) {
+    .images {
+        display :flex;
+        flex-direction: column;
+    }
+
+}

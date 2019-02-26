@@ -1,0 +1,67 @@
+body {
+    margin-left: 40px;
+}
+
+.social {
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+    letter-spacing:  0.1px;
+}
+
+h1 {
+    color: rgb(170, 165, 165);
+    -webkit-text-fill-color:  rgb(170, 165, 165);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:white;
+    
+}
+
+h2 {
+    color: rgb(170, 165, 165);
+    display: flex;
+}
+
+h4 {
+    color: lightslategray;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+
+.welcome {
+    background-image: url("cuisine.jpg");
+    border: 2px solid black;
+    height: 500px;
+    width: 97%;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Tangerine', cursive;
+    text-align: left;
+    letter-spacing: 1.5px;
+    font-size: 59px;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+
+}
+
+.effect {
+    animation-iteration-count: 3;
+}
+
+@media (max-width: 600px) {
+    .content {
+        display : flex;
+        flex-direction: column;
+
+    }
+    .welcome {
+        max-width: 600px;
+    }
+}
+

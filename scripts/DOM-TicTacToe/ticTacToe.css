@@ -1,0 +1,57 @@
+
+body {
+background-color: rgb(243, 209, 214);
+
+}
+
+
+
+
+.tic {
+
+    margin-left: 100px;
+    margin-top: 50px;
+    
+    display: grid;
+    grid-template-rows: 220px 220px 220px;
+    grid-template-columns: 220px 220px 220px;
+
+}
+
+
+.upperleft {
+    border-right: black solid 3px;
+    border-bottom: black solid 3px;
+}
+
+.uppermiddle {
+    border-bottom: black solid 3px;
+    border-right: black solid 3px;
+
+}
+
+.upperright {
+    border-bottom: black solid 3px; 
+}
+
+.middleleft {
+    border-bottom: black solid 3px;
+    border-right: black solid 3px;
+}
+
+.middlemiddle {
+    border-bottom: black solid 3px;
+    border-right: black solid 3px;
+}
+
+.middleright {
+    border-bottom: black solid 3px; 
+}
+
+.lowerleft {
+    border-right: black solid 3px;
+}
+
+.lowermiddle {
+    border-right: black solid 3px;
+}
