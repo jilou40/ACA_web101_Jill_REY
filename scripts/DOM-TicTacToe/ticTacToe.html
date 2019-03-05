@@ -9,22 +9,35 @@
     <title>Tic Tac Toe</title>
 </head>
 
-<body onload="java()">
+<body onload="window.alert('Welcome to my home page!');">
 
-    <div class="tic">
-        <div class="upperleft"></div>       
-        <div class="uppermiddle"></div>
-        <div class="upperright"></div>
-        <div class="middleleft"></div>
-        <div class="middlemiddle"></div>
-        <div class="middleright"></div>
-        <div class="lowerleft"></div>
-        <div class="lowermiddle"></div>
-        <div class="lowerright"></div>
+
+
+    <div class="tic" onclick=placeMark>
+
+        <div id="upperleft" class="cell" onclick="placeMark(id)"> </div>       
+        <div id="uppermiddle" class="cell" onclick="placeMark(id)"> </div>
+        <div id="upperright" class="cell" onclick="placeMark(id)"> </div>
+        <div id="middleleft" class="cell" onclick="placeMark(id)"> </div>
+        <div id="middlemiddle" class="cell" onclick="placeMark(id)"> </div>
+        <div id="middleright" class="cell" onclick="placeMark(id)"> </div>
+        <div id="lowerleft" class="cell" onclick="placeMark(id)"> </div>
+        <div id="lowermiddle" class="cell" onclick="placeMark(id)"> </div>
+        <div id="lowerright" class="cell" onclick="placeMark(id)"> </div>
 
     </div>
 
+<div class="buttons">
+    <button id="X" onclick="changeMarkerToX()">
+        X
+    </button>
 
+        OR
+
+    <button id="O" onclick="changeMarkerToO()">
+        O
+    </button>
+</div>
     
 </body>
 </html>

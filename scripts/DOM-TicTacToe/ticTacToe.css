@@ -1,11 +1,7 @@
 
 body {
 background-color: rgb(243, 209, 214);
-
 }
-
-
-
 
 .tic {
 
@@ -19,39 +15,44 @@ background-color: rgb(243, 209, 214);
 }
 
 
-.upperleft {
+#upperleft {
     border-right: black solid 3px;
     border-bottom: black solid 3px;
 }
 
-.uppermiddle {
+#uppermiddle {
     border-bottom: black solid 3px;
     border-right: black solid 3px;
 
 }
 
-.upperright {
+#upperright {
     border-bottom: black solid 3px; 
 }
 
-.middleleft {
+#middleleft {
     border-bottom: black solid 3px;
     border-right: black solid 3px;
 }
 
-.middlemiddle {
+#middlemiddle {
     border-bottom: black solid 3px;
     border-right: black solid 3px;
 }
 
-.middleright {
+#middleright {
     border-bottom: black solid 3px; 
 }
 
-.lowerleft {
+#lowerleft {
     border-right: black solid 3px;
 }
 
-.lowermiddle {
+#lowermiddle {
     border-right: black solid 3px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
 }

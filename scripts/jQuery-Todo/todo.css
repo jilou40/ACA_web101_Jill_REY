@@ -1,0 +1,19 @@
+.todo { 
+  
+    border : black solid 2px;
+    background-color: coral; 
+    padding: 30px;
+    width: 400px;
+  
+  }
+
+
+#newItemButton {
+    display: none;
+  }
+  
+  #itemField {
+    margin-top: 40px;
+    width: 50%;
+    
+  }
