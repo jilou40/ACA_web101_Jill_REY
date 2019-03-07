@@ -6,6 +6,8 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="dashboard-style.css">
 <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+
+
 <title>My Apple dashboard</title>
 </head>
 <body>
@@ -61,8 +63,12 @@
    
     
            <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13785.06822842748!2d-97.7584128!3d30.2579712!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b51ecba165cf%3A0x6c41be37669e60ee!2sUchi!5e0!3m2!1sen!2sus!4v1549230121004" width="350" height="350" frameborder="0" style="border:0" allowfullscreen>
-                </iframe>"ß
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13785.06822842748!2d-97.7584128!3d30.2579712!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b51ecba165cf%3A0x6c41be37669e60ee!2sUchi!5e0!3m2!1sen!2sus!4v1549230121004" width="350" height="350" frameborder="0" style="border:0" allowfullscreen>
+                </iframe>"-->
+                
+                <button onclick="myLocation()"> Click to get location</button>
+                <p id="myloc"></p>
+
             </div>
     
        
@@ -83,7 +89,9 @@
 
 
     
-
+   
 
 </body>
+
+<script src="geo.js"></script>
 </html>
