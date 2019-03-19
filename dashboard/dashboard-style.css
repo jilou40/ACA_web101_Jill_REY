@@ -10,13 +10,16 @@
 
 .greeting {
   font-family: 'Fredericka the Great', cursive;
-  color: indianred; 
+  color: black;
+  font-size: 25px;
   /* grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2; */
-  margin: auto;
- 
+  margin-top: 40px;
+  justify-content: center;
+  align-content: center;
+ ß
 }
 
 .todo { 
@@ -24,8 +27,12 @@
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2; */
+  height: 250px;
+  width: 250px;
+  margin-left: 40px;
+  margin-top: 40px;
   border : black solid 2px;
-  background-color: coral; 
+  background-color: rgb(77, 75, 75); 
   padding: 30px;
 
 }
@@ -73,7 +80,8 @@
 }
 
 
-body { background-image: url(./img/marble1.jpg); 
+body { background-image: url(./img/marble1.jpg);
+  background-size: cover;
 
 }
 
